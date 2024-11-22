@@ -1,0 +1,86 @@
+.bg {
+    background-color: black;
+}
+
+/* General body styling */
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Image styling */
+  img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  /* Button styling */
+  button {
+    margin-top: 20px;
+  }
+  
+ 
+  .shake {
+    animation: shake 0.8s ease-in-out;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+  }
+  
+  .eight-ball {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #111;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .ball {
+    animation: bounce 1.5s ease-in-out infinite;
+  }
+  
+  
